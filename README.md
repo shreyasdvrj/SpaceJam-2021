@@ -1,5 +1,5 @@
 # SpaceJam-2021
-SpaceJam - Pitch Perfect
+Team Tom & Jerry - Pitch Perfect
 
 # Abstract
 - On any platform, an effective pitch of your idea provides a lasting impact by creating a clear definition in the minds of the interested parties/ stakeholders.
