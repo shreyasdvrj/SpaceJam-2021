@@ -1,18 +1,13 @@
 const router = require('express').Router()
 const mentorCtrl = require('../controllers/mentorCtrl')
+const auth = require('../middleware/auth')
 
 // Register User
-router.post('/mentorregister', function(req,res){
-    mentorCtrl.registerUser
-    console.log("In register")
-});
+router.post('/register', mentorCtrl.registerMentor)
 // Login User
-router.post('/mentorlogin', function(req,res){
-    mentorCtrl.loginUser
-});
-//Verify token
-router.get('/verify', function(req,res){
-    mentorCtrl.verifiedToken
-});
+router.post('/login', mentorCtrl.loginMentor)
+
+// verify Token
+router.get('/verify', mentorCtrl.verifiedToken)
 
 module.exports = router
