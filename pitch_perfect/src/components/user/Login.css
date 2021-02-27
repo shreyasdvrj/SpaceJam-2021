@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    background-color: #b3b8e6;
+    font-size: 12px;
+    
+  }
+  .Nav{
+      width: 100%;
+      text-align: center;
+      height: 120px;
+      
+      background-color: rgb(32, 49, 145);
+  }
+  .Header{
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    font-family: 'Montserrat';
+
+  }
+  .ant-card-head {
+    border-bottom-color: #ffffff;
+  }
+  .ant-card-head-title {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .ant-card {
+    background: #0a5999;
+  }
+  .logInCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logInCard .ant-card-head-title {
+    display: inline-block;
+    text-align: center;
+  }
+  .ant-input {
+    margin-bottom: 25px;
+    height: 40px;
+    background: #fafafa;
+    border-color: transparent;
+    color: rgb(44, 65, 182);
+  }
+  .ant-btn {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  p {
+    text-align: center;
+    color: #ffffff;
+  }
+  .btnAccount {
+    float: right;
+  }
+  .signup_button{
+      background-color: #ffffff;
+      color: rgb(7, 25, 59);
+      width: 200px;
+      text-align: center;
+      margin-left: 180px;
+      border-radius: 10px;
+  }
+  .gologin{
+      color: white;
+  }
+
+  .Home_Logo{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-right: 600px;
+    
+  }
